@@ -1,0 +1,94 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+	color: #DEB887;
+	/*background-color: #966F33;*/
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.main-text {
+	text-align: justify;
+	margin-bottom: 25px;
+}
+
+.container {
+	width: 1140px;
+	margin: 40px auto 0 auto; /*margin: top right bottom left */
+	/*background-color: #ADA96E;*/
+}
+
+.blog-posts, 
+.other-posts {
+	float: left;
+}
+
+.blog-posts {
+	width: 75%;
+	padding-right: 40px;
+	background-color: #F5F5DC;
+	position: relative;
+}
+
+.other-posts {
+	width: 25%;
+	background-color: #C9BE62;
+}
+
+
+#body-img {
+	height: 200px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+.post-list li {
+    list-style: none;
+	margin-top: 15px;
+}
+.author-box img {
+	height: 100px;
+	width: auto;
+	border-radius: 50%; /*pildi nurgad ümaraks */
+	float: left; /*pilt ja nimi kõrvuti*/
+}
+
+.author-box {
+	padding-top: 20px;
+	border-top: 1px solid #4b2600;
+}
+
+#author-name {
+	font-size: 22px;
+	margin-top: 40px;
+	margin-left: 10px;
+	float: left;
+}
+.date {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+}
